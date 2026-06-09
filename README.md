@@ -1,2 +1,2 @@
-# Portif-lio
+# Portifolio
 Primeiro projeto-portfólio
