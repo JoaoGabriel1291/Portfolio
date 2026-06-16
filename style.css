@@ -168,13 +168,14 @@ main {
 
     .apresentacao__conteudo {
         align-items: center;
-         width: 100%;
+        width: 100%;
         max-width: 100%;
     }
 
     .sobre__mim{
         flex-direction: column-reverse;
         text-align: center;
+        align-items: center;
         gap: 30px;
     }
 
