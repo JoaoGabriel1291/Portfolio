@@ -159,6 +159,7 @@ main {
         flex-direction: column; /* Foto vai para cima, texto para baixo */
         text-align: center;
         justify-content: center;
+        gap:30px;
     }
 
     .apresentacao__conteudo {
@@ -203,5 +204,6 @@ main {
         gap: 20px;
         flex-wrap: wrap;
     }
+
 
 }
