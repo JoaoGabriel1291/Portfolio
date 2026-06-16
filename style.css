@@ -194,4 +194,14 @@ main {
         width: 100%;
     }
 
+    .cabecalho{
+        padding: 20px;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
 }
