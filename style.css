@@ -153,11 +153,9 @@ main {
     color: var(--cor-hover);
     transform: scale(1.05);
 }
-
 * {
-    outline: 1px solid red;
+    border: 1px solid red;
 }
-
 @media (max-width: 900px) {
     .apresentacao {
         flex-direction: column; /* Foto vai para cima, texto para baixo */
