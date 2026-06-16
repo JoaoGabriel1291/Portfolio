@@ -97,6 +97,12 @@ main {
     width: 50%;
 }
 
+.apresentacao__habilidades{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .habilidades{
     flex:1;
     min-width: 250px;
