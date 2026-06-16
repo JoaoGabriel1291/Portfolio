@@ -14,7 +14,6 @@
 }
 body{
     min-height: 100vh;
-    box-sizing: border-box;
     background-color: var(--cor-primaria);
     font-family:"Inter", sans-serif;
     color:var(--cor-secundaria);
@@ -153,9 +152,12 @@ main {
     color: var(--cor-hover);
     transform: scale(1.05);
 }
-* {
-    border: 1px solid red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 @media (max-width: 900px) {
     .apresentacao {
         flex-direction: column; /* Foto vai para cima, texto para baixo */
@@ -166,6 +168,8 @@ main {
 
     .apresentacao__conteudo {
         align-items: center;
+         width: 100%;
+        max-width: 100%;
     }
 
     .sobre__mim{
@@ -206,6 +210,11 @@ main {
         gap: 20px;
         flex-wrap: wrap;
     }
+    main{
+    width: 100%;
+    padding: 20px;
+    }
+
 
 
 }
